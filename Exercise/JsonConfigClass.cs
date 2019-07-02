@@ -8,6 +8,8 @@ namespace Exercise
     {
         public ElectricForceImport ElectricForce { get; set; }
         public ElectricCampImport ElectricCamp { get; set; }
+        public PotencialEnergyImport PotencialEnergy { get; set; }
+        public ElectricPotentialImport ElectricPotential { get; set; }
     }
 
     public class ElectricForceImport
@@ -21,4 +23,19 @@ namespace Exercise
         public Charge[] Charges { get; set; }
         public double[] ElectricChargePoints { get; set; }
     }
+    public class PotencialEnergyImport
+    {
+        public Charge[] Charges { get; set; }
+
+    }
+
+    public class ElectricPotentialImport
+    {
+        public Charge[] Charges { get; set; }
+        public double[] ElectricPotentialPoint { get; set; }
+
+
+    }
+
+
 }

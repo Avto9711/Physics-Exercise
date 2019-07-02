@@ -3,6 +3,7 @@ using System;
 namespace Exercise{
     public static class Extensions{
         public static double K = (8.99 * Math.Pow(10, 9));
+        public static double KPotencialEnergy = (8.99 * Math.Pow(10, 1));
         public static double[] GetCoordinates(this Charge Charge){
             return Charge.Coordenadas;
         }

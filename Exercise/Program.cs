@@ -12,6 +12,8 @@ public class Program
             JsonConfigClass config = Newtonsoft.Json.JsonConvert.DeserializeObject<JsonConfigClass>(File.ReadAllText(Environment.CurrentDirectory + "/Inputs.json"));
             var electricForceConfig = config.ElectricForce;
             var electricCampConfig = config.ElectricCamp;
+            var potencialEnergyConfig = config.PotencialEnergy;
+            var electricPotential = config.ElectricPotential;
             //Charge[] charges = new Charge[8]
             //{
 
@@ -29,11 +31,17 @@ public class Program
                 electricForceConfig.Charges[electricForceConfig.SelectedChargeIndex]);
 
             ElectricCamp ecamp = new ElectricCamp(electricCampConfig.Charges);
+            PotencialEnergy pEnergy = new PotencialEnergy(potencialEnergyConfig.Charges);
 
+            ElectricPotential ePotential = new ElectricPotential(electricPotential.Charges);
             Console.WriteLine("--Fuerza Electrica--");
             Console.WriteLine(calc.Calculate().GetResults());
             Console.WriteLine("--Campo Electrico--");
             Console.WriteLine(ecamp.Calculate(electricCampConfig.ElectricChargePoints).GetResults());
+            Console.WriteLine("--Energia Potencial--");
+            Console.WriteLine(pEnergy.Calculate().Result);
+            Console.WriteLine("--Potencial Electrico--");
+            Console.WriteLine(ePotential.Calculate(electricPotential.ElectricPotentialPoint).Result);
             Console.ReadKey();
         }
     } 
