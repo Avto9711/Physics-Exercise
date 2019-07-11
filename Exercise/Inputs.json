@@ -101,46 +101,24 @@
     "charges": [
       {
         "nombre": "Q1",
-        "value": 2,
+        "value": 3,
         "coordenadas": [ 0, 0, 0 ]
       },
       {
         "nombre": "Q2",
-        "value": 1.5,
-        "coordenadas": [ 0, 0, 0.45 ]
+        "value": 1,
+        "coordenadas": [ 0, 3, 0 ]
       },
       {
         "nombre": "Q3",
-        "value": 3,
-        "coordenadas": [ 0.8, 0, 0.45 ]
+        "value": 4,
+        "coordenadas": [ 5,3,0 ]
       },
 
       {
         "nombre": "Q4",
-        "value": -3.5,
-        "coordenadas": [ 0.8, 0, 0 ]
-      },
-
-      {
-        "nombre": "Q5",
-        "value": 7,
-        "coordenadas": [ 0.8, 0.6, 0 ]
-      },
-
-      {
-        "nombre": "Q6",
-        "value": -2,
-        "coordenadas": [ 0, 0.6, 0 ]
-      },
-      {
-        "nombre": "Q7",
-        "value": 1,
-        "coordenadas": [ 0, 0.6, 0.45 ]
-      },
-      {
-        "nombre": "Q8",
         "value": -1,
-        "coordenadas": [ 0.8, 0.6, 0.45 ]
+        "coordenadas": [ 5,0,0 ]
       }
     ]
   },
@@ -148,49 +126,27 @@
     "charges": [
       {
         "nombre": "Q1",
-        "value": 2,
+        "value": 3,
         "coordenadas": [ 0, 0, 0 ]
       },
       {
         "nombre": "Q2",
-        "value": 1.5,
-        "coordenadas": [ 0, 0, 0.45 ]
+        "value": 1,
+        "coordenadas": [ 0, 3, 0 ]
       },
       {
         "nombre": "Q3",
-        "value": 3,
-        "coordenadas": [ 0.8, 0, 0.45 ]
+        "value": 4,
+        "coordenadas": [ 5, 3, 0 ]
       },
 
       {
         "nombre": "Q4",
-        "value": -3.5,
-        "coordenadas": [ 0.8, 0, 0 ]
-      },
-
-      {
-        "nombre": "Q5",
-        "value": 7,
-        "coordenadas": [ 0.8, 0.6, 0 ]
-      },
-
-      {
-        "nombre": "Q6",
-        "value": -2,
-        "coordenadas": [ 0, 0.6, 0 ]
-      },
-      {
-        "nombre": "Q7",
-        "value": 1,
-        "coordenadas": [ 0, 0.6, 0.45 ]
-      },
-      {
-        "nombre": "Q8",
         "value": -1,
-        "coordenadas": [ 0.8, 0.6, 0.45 ]
+        "coordenadas": [ 5, 0, 0 ]
       }
     ],
-    "ElectricPotentialPoint": [ 0.5, 0.2, 0.4 ]
+    "ElectricPotentialPoint": [ 2.5, 1.5, 0 ]
 
   }
 

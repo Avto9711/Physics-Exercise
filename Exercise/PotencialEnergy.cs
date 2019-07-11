@@ -21,7 +21,7 @@ namespace Exercise
             {
                 var firstCharge = this._forces[i];
                 var coordanadasCargaActual = firstCharge.GetCoordinates();
-                var valorCargaActual = firstCharge.GetCoordinates();
+                var valorCargaActual = firstCharge.GetValue();
 
                 for (int y = 0; y < this._forces.Length; y++)
                 {
@@ -33,7 +33,7 @@ namespace Exercise
                         var valorCargaHermana = secondCharge.GetValue();
                         var distance = Extensions.GetDistanceBetweenCharges(firstCharge, secondCharge);
 
-                        result.Values.Add((valorCargaHermana * valorCargaHermana)/distance);
+                        result.Values.Add((valorCargaActual * valorCargaHermana)/distance);
 
                     }
                 }
